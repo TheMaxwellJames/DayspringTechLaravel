@@ -58,9 +58,10 @@
 
                       @include('layouts.messages')
 
-                      <form class="row g-3 needs-validation" novalidate>
+                      <form class="row g-3 needs-validation" action="" method="POST">
+                        @csrf
 
-                       
+
                         <div class="col-12">
                           <label for="yourEmail" class="form-label">Your Email</label>
                           <input type="email" name="email" value="{{old('email')}}" class="form-control" id="yourEmail" required>
@@ -70,7 +71,7 @@
                         <div class="col-12">
                           <label for="yourPassword" class="form-label">Password</label>
                           <input type="password" name="password" class="form-control" id="yourPassword" required>
-                          <div class="invalid-feedback">Please enter your password!</div>
+
                         </div>
 
                         <div class="col-12">
