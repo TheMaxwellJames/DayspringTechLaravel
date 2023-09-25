@@ -8,8 +8,9 @@
           class="navbar-brand font-weight-bold text-secondary"
           style="font-size: 50px"
         >
-          <i class="flaticon-043-teddy-bear"></i>
-          <span class="text-primary">KidKinder</span>
+          {{-- <i class="flaticon-043-teddy-bear"></i> --}}
+          <i class="fas fa-laptop"></i>
+          <span class="text-primary">DaySpring</span>
         </a>
         <button
           type="button"
@@ -49,6 +50,16 @@
       </nav>
     </div>
     <!-- Navbar End -->
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -89,7 +89,7 @@ class AuthController extends Controller
         {
             abort(404);
         }
-    } 
+    }
 
 
 
@@ -143,7 +143,7 @@ class AuthController extends Controller
 
         if (Auth::attempt(['email' => $request->email, 'password' => $request->password], $remember)) {
             if (!empty(Auth::user()->email_verified_at)) {
-                echo "success";
+               return redirect('panel/dashboard');
             } else {
 
                 $user_id = Auth::user()->id;
@@ -168,5 +168,12 @@ class AuthController extends Controller
         } else {
             return redirect()->back()->with('error', "Please enter the correct email and password");
         }
+    }
+
+
+    public function logout()
+    {
+        Auth::logout();
+        return redirect('login')->with('success', "You are logged out");
     }
 }

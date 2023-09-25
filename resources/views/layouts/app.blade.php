@@ -2,10 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>KidKinder - Kindergarten Website Template</title>
+    <title>Dayspring Tech Hub || Home</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="Free HTML Templates" name="keywords" />
-    <meta content="Free HTML Templates" name="description" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
 
     <!-- Favicon -->
     <link href="{{ url('front/img/favicon.ico') }}" rel="icon" />
@@ -61,8 +61,8 @@
     <script src="{{ url('front/lib/lightbox/js/lightbox.min.js') }}"></script>
 
 
-  
-   
+
+
 
     <!-- Template Javascript -->
   <script src="{{ url('front/js/main.js') }}"></script>
