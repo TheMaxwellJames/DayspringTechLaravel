@@ -141,7 +141,7 @@
     <!-- Facilities Start -->
 
     <!-- About Start -->
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-5" id="about">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-5">
@@ -191,7 +191,7 @@
     <!-- About End -->
 
     <!-- Class Start -->
-    <div class="container-fluid pt-5">
+    <div class="container-fluid pt-5" id="classes">
       <div class="container">
         <div class="text-center pb-2">
           <p class="section-title px-5">
@@ -323,7 +323,7 @@
     <!-- Class End -->
 
     <!-- Registration Start -->
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-5" id="contact">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-7 mb-5 mb-lg-0">
@@ -405,7 +405,7 @@
     <!-- Registration End -->
 
     <!-- Team Start -->
-    <div class="container-fluid pt-5">
+    <div class="container-fluid pt-5" id="teachers">
       <div class="container">
         <div class="text-center pb-2">
           <p class="section-title px-5">
@@ -548,7 +548,7 @@
     <!-- Team End -->
 
     <!-- Testimonial Start -->
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-5" id="testimonials">
       <div class="container p-0">
         <div class="text-center pb-2">
           <p class="section-title px-5">

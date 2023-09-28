@@ -25,11 +25,11 @@
           id="navbarCollapse"
         >
           <div class="navbar-nav font-weight-bold mx-auto py-0">
-            <a href="index.html" class="nav-item nav-link active">Home</a>
-            <a href="about.html" class="nav-item nav-link">About</a>
-            <a href="class.html" class="nav-item nav-link">Classes</a>
-            <a href="team.html" class="nav-item nav-link">Teachers</a>
-            <a href="gallery.html" class="nav-item nav-link">Gallery</a>
+            <a href="#" class="nav-item nav-link active">Home</a>
+            <a href="#about" class="nav-item nav-link">About</a>
+            <a href="#classes" class="nav-item nav-link">Classes</a>
+            <a href="#teachers" class="nav-item nav-link">Teachers</a>
+            <a href="#testimonials" class="nav-item nav-link">Testimonials</a>
             <div class="nav-item dropdown">
               <a
                 href="#"
@@ -38,11 +38,11 @@
                 >Pages</a
               >
               <div class="dropdown-menu rounded-0 m-0">
-                <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                <a href="single.html" class="dropdown-item">Blog Detail</a>
+                <a href="" class="dropdown-item">Blog Grid</a>
+                <a href="" class="dropdown-item">Blog Detail</a>
               </div>
             </div>
-            <a href="contact.html" class="nav-item nav-link">Contact</a>
+            <a href="#contact" class="nav-item nav-link">Contact</a>
           </div>
           <a href="{{url('login')}}" class="btn btn-primary px-4">Login</a>
            <a href="{{url('register')}}" style="margin-left: 8px;" class="btn btn-primary px-4">Register</a>
