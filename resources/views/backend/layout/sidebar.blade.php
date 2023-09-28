@@ -3,11 +3,21 @@
     <ul class="sidebar-nav" id="sidebar-nav">
 
       <li class="nav-item">
-        <a class="nav-link " href="{{url('panel/dashboard')}}">
+        <a class="nav-link @if (Request::segment(2) != 'dashboard')
+
+         collapsed @endif " href="{{url('panel/dashboard')}}">
           <i class="bi bi-grid"></i>
-          <span>Dashboard</span>
+          <span>Dashboard </span>
         </a>
-      </li><!-- End Dashboard Nav -->
+      </li>
+
+      {{-- <li class="nav-item">
+        <a class="nav-link {{ Request::segment(2) === 'dashboard' ? 'collapsed' : '' }}" href="{{ url('panel/dashboard') }}">
+            <i class="bi bi-grid"></i>
+            <span>Dashboard</span>
+        </a>
+    </li> --}}
+
 {{--
       <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
@@ -183,14 +193,18 @@
 
 
       <li class="nav-item">
-        <a class="nav-link " href="{{url('panel/user/list')}}">
+        <a class="nav-link  @if (Request::segment(2) != 'user')
+
+        collapsed @endif "  href="{{url('panel/user/list')}}">
           <i class="bi bi-person"></i>
           <span>Users</span>
         </a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="{{url('panel/category/list')}}">
+        <a class="nav-link  @if (Request::segment(2) != 'category')
+
+        collapsed @endif " href="{{url('panel/category/list')}}">
           <i class="bi bi-person"></i>
           <span>Category</span>
         </a>
@@ -198,7 +212,9 @@
 
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="{{url('panel/blog/list')}}">
+        <a class="nav-link  @if (Request::segment(2) != 'blog')
+
+        collapsed @endif " href="{{url('panel/blog/list')}}">
           <i class="bi bi-person"></i>
           <span>Blogs</span>
         </a>
@@ -209,14 +225,14 @@
           <i class="bi bi-question-circle"></i>
           <span>Help</span>
         </a>
-      </li><!-- End F.A.Q Page Nav -->
+      </li>
 
       <li class="nav-item">
         <a class="nav-link collapsed" href="">
           <i class="bi bi-envelope"></i>
           <span>Inbox</span>
         </a>
-      </li><!-- End Contact Page Nav -->
+      </li>
 
 
 
